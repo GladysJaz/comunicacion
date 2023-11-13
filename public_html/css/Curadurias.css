@@ -1,0 +1,610 @@
+/* Se carga el tipo de letra*/
+@font-face {
+    font-family: Estilo1;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Estilo2;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Estilo3;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+/************************************/
+.curation{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+.curation > div:first-of-type{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    
+}
+.container-image-curation{
+    width: 80%;
+    margin: auto;
+}
+.container-image-curation section{
+    width: 100%;
+    margin: auto;
+    
+   
+    
+   
+}
+.container-image-curation section img{
+    width: 100%;
+    height: auto;
+   
+}
+
+/***** Titulo principal y Parrafo curadurias*/
+.curation .curation-text    {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5em;
+}
+.curation .main-title,
+.curation .main-tems,
+.curation 
+.curation {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content:left;
+    margin-bottom: 75px;
+    
+}
+.curation .main-title h1{
+    width: 100%;
+    font-family: Estilo3;
+    color:#f39200;
+    font-weight: bold;
+    line-height: 2cm;
+}
+
+.curation .curation-text .main-title p{
+    font-family: Estilo2;
+    font-size: 1.3rem;
+    float: left;
+    text-align: justify;
+    line-height: 0.7cm;
+}
+
+
+.curation .main-tems h2{
+    width: 100%;
+    font-family: Estilo3;
+    text-transform: uppercase;
+    color: #e6007e;
+    font-size: 35px; 
+    margin-bottom: 20px;   
+}
+.curation .curation-text .main-axes > div:last-of-type,
+.curation .curation-text .main-tems > div:last-of-type,
+.curation .curation-text .main-material > div:last-of-type{
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    height: 140px;
+    box-sizing: border-box;
+}
+.curation .curation-text  > div:last-of-type .container-icons,
+.curation .curation-text .main-tems > div:last-of-type .container-icons,
+.curation .curation-text  > div:last-of-type .container-icons{
+    width: 15%;
+    height: 100%;
+}
+
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type{
+
+    height: 55%;
+    box-sizing: border-box;
+    padding-bottom: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type img,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type img,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type img{
+
+    height:100%;
+    width: auto;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:last-of-type,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:last-of-type,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:last-of-type{
+    height: 30%;
+    width: 100%;
+    text-align: left;
+    font-family:Estilo3;
+    color:#e6007e;
+    text-transform: uppercase;
+}
+
+
+
+
+/* 
+    Estilos para los div de color rosa de curadurias
+*/
+
+.curation-text .main-title section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70px;
+    
+
+  
+
+}
+.curation-text .main-title section > div:first-of-type{
+    width: 7%;
+    height: 100%;
+    
+}
+.curation-text .main-title section> div:first-of-type IMG{
+    height: 100%;
+    width: auto;
+   
+
+}
+
+.curation-text .main-title section > h1{
+    width: 93%;
+    height: 100%;
+    color:#e6007e!important;
+    text-transform: uppercase;
+}
+
+
+/*Estilos fichas tecnicas */
+
+
+#container-technical-sheets{
+    height: 355px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow:hidden;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+
+
+  
+}
+.c-1,
+.c-3{
+    width: 37%;
+    height:95% ;
+    background-color:#e6007e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: .2%;
+    margin-right: .2%;
+       
+        
+}
+.c-2{
+    background-color: rgb(190, 190, 190);
+    width: 24.5%;
+    height: 95%;
+    margin-left: .2%;
+    margin-right: .2%;
+    box-sizing: border-box;
+    padding: 20px 15px 10px 15px;
+    font-family: Estilo2;
+    border-radius: 10px;
+}
+
+.c-4
+     {
+        background-color:#e6007e;
+        width: 24.5%;
+        height: 95%;
+        margin-left: .2%;
+        margin-right: .2%;
+        box-sizing: border-box;
+        padding:0px;
+        border-radius: 10px;
+
+    }
+
+
+/*SECCION ECOLOGIA DE LOS MEDIOS*/
+.c-5{
+    width: 30.2%;
+    height:95% ;
+    background-color:#e6007e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: .2%;
+    margin-right: .2%;
+       
+    }
+
+.c-6{
+    background-color:#e6007e;
+    width: 31.6%;
+    height: 95%;
+    margin-left: .2%;
+    margin-right: .2%;
+    box-sizing: border-box;
+    padding: 20px 15px 10px 15px;
+    font-family: Estilo2;
+    border-radius: 10px;
+
+
+}
+
+/*texto del contenedor de color gris*/
+.resumen {
+    height: 85%;
+    overflow-y:hidden;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+
+}
+
+
+
+/*ESTILOS DE LOS CONTENEDORES CON MOVIMIENTO */
+
+.text{
+    text-align: center;
+    justify-content: center;
+    color: #e6007e;
+}
+
+.text h1{
+    margin-top: 35px;
+    color: white;
+}
+
+.products_body{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+   
+}
+
+.wrapper{
+    /*width: 360px;
+    height: 300px;*/
+    background:transparent;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    transform: scale(0.93);
+    transition: box-shadow 0.5s, transform 0.5s;
+    overflow: hidden;
+}
+
+.wrapper:hover{
+    transform: scale(.9);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .container{
+    width: 100%;
+    height: 100%;
+ 
+   
+}
+
+.wrapper .container .top{
+    height: 50%;
+    width: 60%;
+    background-size: 100%;
+    align-items: center;
+  
+}
+
+.wrapper .container .bottom{
+    width: 100%;
+    height: 20%;
+    transition: transform 0.5s;
+    
+}
+
+.wrapper .container .bottom .left{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(50deg, #e6007e, #f39200);
+    position: relative;
+    float: left;
+    
+}
+
+.wrapper .container .bottom .left .details{
+    padding-left: 20px;
+    float: left;
+    width: calc(70% - 40px);
+   
+}
+
+.wrapper .container .bottom .left .details .txt_products{
+    font-size: 15px;
+    color: white;
+    line-height: 0.5cm;
+    text-align: center;
+ 
+}
+
+.wrapper .container .bottom .left .buy{
+    float:right;
+    height: 100%;
+    background: linear-gradient(50deg, #e6007e, #f39200);
+    transition: background 0.5s;
+    border-left: solid thin rgba(0, 0, 0, 0.1);
+   
+}
+
+.wrapper .container .bottom .left .buy img{
+    
+    padding: 30px;
+    transition: transform 0.5s;
+  
+}
+
+.wrapper .container .bottom .left .buy:hover img{
+    transform: rotate(360deg);
+    
+}
+
+.wrapper .inside{
+    z-index: 9;
+    background: linear-gradient(50deg, #e6007e, #f39200);
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    border-radius: 0px 0px 200px 200px;
+    transition: all 0.5s, border-radius 2s, top 1s;
+    overflow: hidden;
+}
+
+.wrapper .inside .icon{
+    position: absolute;
+    right: 85px;
+    top: 85px;
+    color: white;
+    opacity: 1;
+}
+
+.wrapper .inside:hover{
+    width: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    height: 80%;
+    
+}
+
+.wrapper .inside:hover .icon{
+    opacity: 0;
+    right: 15px;
+    top: 15px;
+    
+}
+
+.wrapper .inside:hover .contents{
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+
+.wrapper .inside .contents{
+    padding: 5%;
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translateY(-200%);
+    transition: opacity 0.2s, transform 0.8s;
+   
+}
+
+.wrapper .inside .contents h2,
+.wrapper .inside .contents p{
+    color: white;
+   
+}
+
+.wrapper .inside .contents p{
+    font-size: 8px;
+    
+}
+
+.wrapper .container .bottom .left .details .txt_products p{
+    font-size: 8px;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .curation{
+        padding: 0 0px;
+        padding-bottom: 50px;
+    }
+
+    .container-image-curation {
+        width: 100%;
+        margin: auto;
+    }
+    .container-image-curation section img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+      
+    }
+    .container-image-curation section {
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .curation .curation-text .main-title section{
+        width: 100%;
+        
+    }
+    .curation .curation-text .main-title p {
+        font-family: Estilo2;
+        font-size: 1.3rem;
+        padding-left: 0px;
+        float: left;
+
+    }
+
+    .curation .curation-text .main-title h1{
+        font-family: Estilo3;
+        font-size: 1.4rem;
+        padding-left: 50px;
+
+    }
+
+   
+    .curation .curation-text .main-tems > div:last-of-type{
+        font-size: 1rem !important;
+    }
+    .curation .curation-text .font-mobil{
+        font-size: 15px !important;
+    }
+    .curation .curation-text .main-material{
+
+        margin-bottom: 20px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons,
+    .curation .curation-text .main-axes > div:last-of-type .container-icons,
+    .curation .curation-text .main-material > div:last-of-type .container-icons{
+        width: 50%;
+        font-size: 16px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type,
+    .curation .curation-text .main-axes > div:last-of-type,
+    .curation .curation-text .main-material > div:last-of-type
+    {
+        justify-content: left;
+    }
+    .curation .curation-text .main-tems > div:last-of-type{
+        height: auto;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons{
+        height: 130px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type img,
+    .curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type img,
+    .curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type img{
+        height: 60px;
+        width: auto;
+    }
+    .curation .main-tems{
+        margin-bottom: 0;
+    }
+    .curation-text .main-title header > div:first-of-type {
+        width: 100%;
+        height: 50%;
+    }
+    .curation-text .main-title header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .curation-text .main-title header > h1 {
+        width: 100%;
+        height: 50%;
+        color:#e6007e!important;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+
+    }
+
+
+    .c-1, .c-3 {
+        width: 100% !important;
+        height: 100%;
+        background-color:#e6007e;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+        
+    }
+    .c-2 {
+        background-color: rgb(190, 190, 190);
+        width: 100%;
+        height: 100%;
+        margin-left: .5%;
+        margin-right: .5%;
+        box-sizing: border-box;
+        padding: 20px 15px 10px 15px;
+        font-family: Estilo2;
+       
+        
+    }
+ 
+    .c-4
+     {
+        background-color:#e6007e;
+        width: 100%;
+        height: 100%;
+        margin-left: .5%;
+        margin-right: .5%;
+        box-sizing: border-box;
+        padding: 20px 15px 10px 15px;
+        font-family: Estilo2;
+        
+         
+    }
+    #container-technical-sheets {
+        height: 330px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        overflow-y:hidden;
+       
+        
+    }
+    #container-technical-sheets >div{
+        margin-bottom: 10px;
+        
+    }
+   
+    .curation .curation-text .main-axes,
+    .curation .curation-text .main-material{
+        margin-bottom: 110px;
+    }
+}
+
+
+

@@ -1,0 +1,1167 @@
+{
+    "type": "FeatureCollection",
+    "name": "MAPA_REP_MEX",
+    
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#b21f1f",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Baja California Sur"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.81884765624999,
+                    25.987674852384966,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#ff0000",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "La Paz"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.31372070312499,
+                    24.1367281697474,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#73099a",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Baja California",
+                "id": "5",
+                "nombre_completo": "Adalberto Robles",
+                "grado_academico": "Ing. en Computación",
+                "ubicacion": "Baja California",
+                "institucion": "Tecnológico de Monterrey",
+                "linea_investigacion": "Seguridad Informática",
+                "correo": "ejemplo4@gmail.com",
+                "COORGEOG_X": -115.45446,
+                "COORGEOG_Y": 32.62781,
+                "Coord_X": 32.62781,
+                "Coord_Y": -115.45446
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.37841796874999,
+                    30.760718908944472,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#af0891",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Sonora"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.4345703125,
+                    29.726222319395504,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#ff05c9",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Hermosillo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.98388671874999,
+                    29.094577077511826,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2700b3",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Chihuahua"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.270751953125,
+                    29.27681632836857,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#3f4aee",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Ciudad Juarez"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.44653320312499,
+                    31.690781806136822,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0259ca",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Durango"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.75463867187499,
+                    24.926294766395593,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#47afff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Durango"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.65576171875,
+                    24.026396666017327,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#029fa2",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Coahuila"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.06298828125,
+                    27.644606381943326,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#008f30",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Monterrey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.316162109375,
+                    25.671235828577043,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#08f738",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Nuevo Leon",
+                "id": "3",
+                "nombre_completo": "Jorge Wals",
+                "grado_academico": "Ing. en Mecatrónica",
+                "ubicacion": "Nuevo Leon",
+                "institucion": "IPN",
+                "linea_investigacion": "I.A.",
+                "correo": "ejemplo2@gmail.com",
+                "COORGEOG_X": -100.31847,
+                "COORGEOG_Y": 25.67507,
+                "Coord_X": 25.67507,
+                "Coord_Y": -100.31847
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.700927734375,
+                    25.24469595130604,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#659400",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Tamaulipas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.558349609375,
+                    24.327076540018634,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#49b800",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Ciudad Victoria"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.151611328125,
+                    23.735069188959354,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#a8a300",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Sinaloa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.995849609375,
+                    24.337086982410497,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#ebef06",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Culiacan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.41333007812499,
+                    24.806681353851964,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#bd8100",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Zacatecas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.886962890625,
+                    23.53377298325595,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#ffa200",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Zacatecas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.568359375,
+                    22.76605146912692,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#8e2401",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "San Luis Potosi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.3436279296875,
+                    22.51255695405145,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#b81c00",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "San Luis Potosi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.9698486328125,
+                    22.156883186860703,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#565252",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Aguascalientes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.35687255859375,
+                    22.039821650237034,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#9f9d9d",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Aguascalientes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.30743408203124,
+                    21.90227796666864,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#8a0065",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Guanajuato"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.20056152343749,
+                    20.884475328885344,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#983a86",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Guanajuato"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.23626708984375,
+                    21.01272715296389,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#c70092",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Tepic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.89471435546875,
+                    21.49396356306447,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#5900ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Guadalajara"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.33740234375,
+                    20.673905264672843,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#483de1",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Jalisco",
+                "id": "4",
+                "nombre_completo": "Miguel Vivanco",
+                "grado_academico": "Ing. en Sistemas",
+                "ubicacion": "Jalisco",
+                "institucion": "IPN",
+                "linea_investigacion": "Ninguna",
+                "correo": "ejemplo3@gmail.com",
+                "COORGEOG_X": -103.39182,
+                "COORGEOG_Y": 20.66682,
+                "Coord_X": 20.66682,
+                "Coord_Y": -103.39182
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.161376953125,
+                    20.210656234489853,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0272a2",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Queretaro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.964599609375,
+                    21.04349121680354,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#8cbade",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Queretaro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.55810546875,
+                    21.01272715296389,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#21b5b3",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Veracruz"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.86669921875,
+                    18.57336188365185,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#74ecea",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Xalapa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.92138671875,
+                    19.539084135509334,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#00c703",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Michoacan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.832275390625,
+                    19.134789188332523,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#47ff6c",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Morelia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.195068359375,
+                    19.699485994162497,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#47f5c1",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Colima"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.721923828125,
+                    19.24503272990791,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#c800ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Mexicali"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.4498291015625,
+                    32.63012300670739,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#00ffee",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Saltillo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.0028076171875,
+                    25.428392529196845,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#ffb957",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Hidalgo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.11865234374999,
+                    20.591652120829167,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#fdd286",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Pachuca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.74786376953125,
+                    20.113971074580647,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#04af9b",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Colima"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.721923828125,
+                    19.239846455102022,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#d18aea",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Ciudad de Mexico",
+                "id": "1",
+                "nombre_completo": "Eric Avila",
+                "grado_academico": "Ing. en Software",
+                "ubicacion": "Ciudad de Mexico",
+                "institucion": "UACM",
+                "linea_investigacion": "Ninguna",
+                "correo": "ejemplo@gmail.com",
+                "COORGEOG_X": -99.12766,
+                "COORGEOG_Y": 19.42847,
+                "Coord_X": 19.42847,
+                "Coord_Y": -99.12766
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.14886474609375,
+                    19.430981649106492,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#d18aea",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Ciudad de Mexico",
+                "id": "2",
+                "nombre_completo": "Carlos Haro",
+                "grado_academico": "Ing. en Software",
+                "ubicacion": "CDMX",
+                "institucion": "UACM",
+                "linea_investigacion": "Ninguna",
+                "correo": "ejemplo1@gmail.com",
+                "COORGEOG_X": -99.12766,
+                "COORGEOG_Y": 19.42847,
+                "Coord_X": 19.42847,
+                "Coord_Y": -99.12766
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.14886474609375,
+                    19.430981649106492,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#e0b9ee",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Ciudad de Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.10629272460938,
+                    19.43162918399349,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#5b4701",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Campeche"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.5218505859375,
+                    19.833892782537767,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#9e741a",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Campeche"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.274658203125,
+                    18.802318121688117,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#47ff6c",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Tuxtla Gutierrez"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.11874389648438,
+                    16.749317883631267,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#93fba8",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Chiapas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.49938964843749,
+                    16.541430360299973,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7c6250",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Chilpancingo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.51278686523438,
+                    17.552390557057297,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#af8e74",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Guerrero"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.0140380859375,
+                    17.727758609852284,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#151414",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Cuernavaca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.22027587890624,
+                    18.917978902570848,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#484747",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Morelos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.151611328125,
+                    18.755511365991328,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7a055b",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Nayarit"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.380859375,
+                    21.88188980762927,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#800057",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Toluca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.66110229492188,
+                    19.287813240262167,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#cf0790",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.73388671874999,
+                    19.652934210612436,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#00ff2a",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Oaxaca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.72500610351561,
+                    17.05809749148272,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#479053",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Oaxaca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.3775634765625,
+                    16.77298693096487,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#030891",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Puebla"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.2012939453125,
+                    19.041348796589013,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7370ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Puebla"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.052978515625,
+                    18.625424540701264,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#aeb00c",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Chetumal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.30810546875,
+                    18.51347017266187,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#fbff0f",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Quintana Roo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.3355712890625,
+                    19.518375478601566,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c9795",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Merida"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.63607788085938,
+                    20.96656916027155,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#58f9f6",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Yucatan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.0057373046875,
+                    20.715015145512087,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#38ff60",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Tlaxcala"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.24111938476562,
+                    19.317623351974174,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#579463",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Tlaxcala"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.1243896484375,
+                    19.471771302105118,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#fdff6b",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "capital": "Villahermosa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.94296264648438,
+                    17.986570330361634,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#fbff00",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "estado": "Tabasco"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.70263671874999,
+                    18.281518235308905,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

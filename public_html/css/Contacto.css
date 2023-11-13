@@ -1,0 +1,167 @@
+/*Comienza el diseño de Contacto*/
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-center{
+    text-align: center;
+    color: #f39200;
+    padding: 35px;
+    font-size: 40px;
+    font-family: Estilo5;
+}
+
+.text-center:hover{
+    color: #e6007e;
+}
+
+.clear-fix{
+    clear: both;
+    float: none;
+}
+
+.contacto{
+    background-color: white;
+    padding: 4% 0;
+    font-family: Estilo5;
+}
+
+.contact-form{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    font-family: Estilo5;
+}
+
+.name, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f39200;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+    font-family: Estilo5;
+}
+
+.phone, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f39200;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+    font-family: Estilo5;
+}
+.mail, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f39200;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+    font-family: Estilo5;
+}
+
+input[type=submit]{
+    background-color: #f39200;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Estilo5;
+}
+
+input[type=submit]:hover {
+    background-color: #e6007e;
+    
+}
+
+label{
+    color: #e6007e;
+    font-size: 30px;
+}
+
+.direccion{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: Estilo5;
+}
+
+.direccion span{
+    color: #f39200;
+    font-size: 40px;
+    margin-right: 10px;
+    font-family: Estilo5;
+    
+}
+
+.direccion span:hover{
+    color: #e6007e;
+}
+
+.email-personal{
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.email-personal span{
+    color: #f39200;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.email-personal span:hover{
+    color: #e6007e;
+}
+
+.telefono{
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Estilo5;
+}
+
+.telefono span{
+    color: #f39200;
+        font-size: 40px;
+        margin-right: 20px;
+}
+
+.telefono span:hover{
+    color: #e6007e;
+}
+
+@media only screen and (max-width: 760px) {
+    .contacto{
+        padding: 20% 0;
+    }
+
+    .contact-form{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+/*Termina el diseño de Contacto*/

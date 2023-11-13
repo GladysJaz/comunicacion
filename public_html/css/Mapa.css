@@ -1,0 +1,89 @@
+/*Inicia diseño de banner de bienvenida de mapa interactivo*/
+.text {
+    padding: 51px;
+}
+
+.text h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.banner-container .banner {
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-container .banner .logo {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.banner-container .banner .logo img {
+    width: 50%;
+}
+
+.banner-container .banner .content {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.banner-container .banner .content span {
+    font-size: 23px;
+}
+
+.banner-container .banner .content h3 {
+    color: black;
+    font-size: 25px;
+    font-family: Estilo5;
+}
+
+.banner-container .banner .content p {
+    color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: Estilo5;
+}
+
+.banner-container .banner .content .btn {
+    display: inline-block;
+    height: 40px;
+    width: 115px;
+    line-height: 40px;
+    background: linear-gradient(50deg, #e6007e, #f39200);
+    color: white;
+    margin: 10px auto;
+    text-decoration: none;
+    font-family: Estilo5;
+}
+
+.banner-container .banner .content a:hover {
+    color: #440080;
+}
+
+.banner-container .banner .mapa {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    flex: 1 1 250px;
+}
+
+.banner-container .banner .mapa img {
+    width: 80%;
+}
+
+@media (max-width:760px) {
+    .banner-container .banner .mapa {
+        display: none;
+    }
+
+        .banner-container .banner .logo{
+            display: none;
+        }
+}
+/*Termina diseño de banner de bienvenida de mapa interactivo*/

@@ -1,0 +1,299 @@
+/* Se carga el tipo de letra*/
+@font-face {
+    font-family: Estilo1;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Estilo2;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Estilo3;
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Estilo4;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+
+/************************************/
+body{
+    width: 100%;
+}
+
+/* Titulo */
+#equipo
+{
+    align-items: flex-start;
+    font-family: Estilo4;
+    color: #e6007e;
+    size: 100px;
+}
+
+
+
+/* imagenes equipo*/
+.img-team
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-service
+{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.titulo
+{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    color: white;
+}
+.about-us{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 50px 50px;
+}
+.container-image-about{
+    width: 80%;
+    margin: auto;
+    
+}
+.container-image-about section{
+    width: 100%;
+
+}
+.container-image-about  img{
+    width: 100%;
+    height: auto;
+}
+.about-us .about-text,   /*cambia el tipo de letra del parrafo "Leer perfil"*/
+.about-us .about-team,
+.about-us .about_service{
+    width: 88%;
+    margin: auto;
+    text-align:justify;
+	line-height:0.9cm;
+    font-family: Estilo2;
+}
+.about-text .main-title, /*Cambia tipo de letra de ¿quienes somos?, Mision, vision*/
+.about-text .main-mision,
+.about-text .main-vision,
+.about-text .main-valores{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align:justify;
+    font-family: Estilo2;
+}
+.about-text .main-title h1,
+.about-text .main-vision h1,
+.about-text .main-mision h1,
+.about-text .main-valores h1,
+.about-team .about-title h1,
+.about_service .about-title h1{
+    width: 100%;
+    font-family: Estilo3;
+    
+}
+
+/*titulo principal y equipo*/
+.about-text .main-title h1,
+.about-text .main-vision h1,
+.about-team .about-title,
+.about_service .about-title {
+    font-family: Estilo4;
+    font-size: 30px;
+    font-weight: bolder;
+    color:#e6007e;
+
+    
+
+}
+
+/*Titulos vision y mision*/
+.about-text .main-mision h1,
+.about-text .main-valores h1{
+    font-family: Estilo4;
+    font-weight: bold;
+    color: #f39200;
+    font-size: 30px;
+    
+}
+
+
+/*Estilo de los parrafos */
+.about-text .main-title p,
+.about-text .main-mision p,
+.about-text .main-valores p,
+.about-text .main-vision p{
+    
+    font-size: 1.3rem;
+    padding-left:30px;
+    float: left;
+    font-family: Estilo2;
+ 
+}
+
+/*Estilos de los parrafos (valores)*/
+.about-text .main-valores ul{
+    width: 100%;
+    padding-left:35px ;
+    font-family: Estilo2; font-family: Estilo2;
+
+}
+
+/*estilos de la lista de valores*/
+.about-text .main-valores ul li{
+    font-size: 1.4rem;
+    font-family: Estilo2;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #e6007e
+    
+}
+
+
+.about-text .main-valores .item{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    position: relative;
+    top: -2px;
+    border-radius: 50%;
+    margin-right: 5px;
+  
+    
+}
+
+.about-team .about-title,
+.about_service .about-title{
+    width: 100%;
+    font-size: 30px;
+    font-family: Estilo4;
+}
+
+.about-team .team,
+.about_service .team{
+    width: 100%;
+    padding: 30px 30px 30px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    
+}
+.about-team .team aside,
+.about_service .team aside
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.about-us .about-team .container-img,
+.about-us .about-team .container-info,
+.about-us .about_service .container-img,
+.about-us .about_service .container-info{
+    width: 70%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    
+}
+.about-us .about-team .container-img,
+.about-us .about_service .container-img{
+    width: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.about-us .about-team .container-img div img,
+.about-us .about_service .container-img div img{
+    width: 80%;
+    height: auto;
+    float: left;
+}
+.about-us .about-team .container-info,
+.about-us .about_service .container-info{
+    color: var(--primary--pink);
+    
+}
+.about-us .about-team .container-info h2,
+.about-us .about-team .container-info h3,
+.about-us .about_service .container-info h2,
+.about-us .about_service .container-info h3
+{
+    font-family: Estilo2;
+    color: #e6007e;
+}
+.about-us .about_service .container-info h2,
+.about-us .about-team .container-info h2{
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.about-us .about-team .container-info h3,
+.about-us .about_service .container-info h3{
+    font-weight: lighter !important;
+}
+
+
+
+.about-us .about-team .container-info h4 a,
+.about-us .about_service .container-info h4 a{
+    color: var(--gris--);
+    font-weight: lighter;
+    font-family: var(--font--lato--regular--);
+
+}
+
+
+
+@media screen and (max-width:768px) {
+           
+    .container-image-about{
+        width: 95% !important;
+
+    }
+    .about-us {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 50px 0px;
+    }
+    .about-text .main-title p, .about-text .main-mision p, .about-text .main-valores p, .about-text .main-vision p {
+        font-family: var(--font--lato--regular--);
+        font-size: 1.3rem;
+        padding-left: 0px; 
+        float: left;
+    }
+    .about-text .main-valores ul {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .about-team .team, .about_service .team
+     {
+       
+        padding: 0px 0px 0px 0px;
+        
+    }
+    .about-team .team aside,
+    .about_service .team aside {
+        width: 100%;
+
+    }
+}

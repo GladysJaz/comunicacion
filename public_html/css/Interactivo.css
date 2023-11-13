@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Estilo3;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Estilo5;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+.map {
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
+    box-sizing: border-box;
+    position: relative;
+}
+.container1{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(1, minmax(100px, 1fr));
+    
+}
+#map-interactivo{
+    margin-top: 100px;
+    position:sticky;
+    padding-bottom: 30.25%;
+    width: 55%;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 3px solid #f39200 ;
+    margin: 1em auto 2em;
+}
+
+#map-interactivo iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.form-select{
+    display: block;
+    border: 3px solid #f39200 ;
+    border-radius: 0.9em;
+    color: #e6007e;
+    font-family: Estilo3;
+    height: 40%;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 350px){
+   
+    #map-interactivo iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
